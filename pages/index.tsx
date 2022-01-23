@@ -14,15 +14,16 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h3 className={styles.slogan}>&quot;Augment your memory&quot;</h3>
-        <div className={styles.logo}>
+        <a className={styles.logo} href="https://github.com/graphnote-io">
           <Image
             src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/graphnote.png"
             width={128}
             height={128}
           />
-        </div>
+        </a>
         <h1>Graphnote</h1>
-        <p>Coming Soon</p>
+        <p>An open source note taking & todo app with first-class Apple Pencil Support.</p>
+        <a className={styles.comingSoonLink} href="https://github.com/graphnote-io">Coming Soon</a>
       </main>
 
       <footer className={styles.footer}>
