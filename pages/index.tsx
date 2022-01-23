@@ -13,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <h3 className={styles.slogan}>&quot;Augment your memory&quot;</h3>
         <div className={styles.logo}>
           <Image
             src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/graphnote.png"
@@ -21,7 +22,6 @@ const Home: NextPage = () => {
           />
         </div>
         <h1>Graphnote</h1>
-        <p>"Augment your memory"</p>
         <p>Coming Soon</p>
       </main>
 
