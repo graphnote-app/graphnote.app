@@ -21,6 +21,7 @@ const Home: NextPage = () => {
           />
         </div>
         <h1>Graphnote</h1>
+        <p>"Augment your memory"</p>
         <p>Coming Soon</p>
       </main>
 
