@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <h3 className={styles.slogan}>&quot;Augment your memory&quot;</h3>
         <a className={styles.logo} href="https://github.com/graphnote-io">
           <Image
-            src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/graphnote.png"
+            src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote.png"
             width={128}
             height={128}
           />
