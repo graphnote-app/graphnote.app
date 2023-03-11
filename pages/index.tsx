@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           />
         </a>
         <h1>Graphnote</h1>
-        <p>An open source note taking & todo app with first-class Apple Pencil Support.</p>
+        <p>An open source note taking & todo app with first-class Apple Pencil support.</p>
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app">Coming Soon</a>
       </main>
 
