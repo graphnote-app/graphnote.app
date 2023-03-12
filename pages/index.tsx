@@ -13,7 +13,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h3 className={styles.slogan}>&quot;Augment your memory&quot;</h3>
+        <div className={styles.spacer2}></div>
+        <h1 className={styles.slogan}>Augment your memory</h1>
         <a className={styles.logo} href="https://github.com/graphnote-app">
           <Image
             src="https://raw.githubusercontent.com/graphnote-app/graphnote/master/Resources/graphnote_icon.png"
@@ -24,8 +25,21 @@ const Home: NextPage = () => {
         <h1>Graphnote</h1>
         <p>An open source note taking & todo app with first-class Apple Pencil support.</p>
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app">Coming Soon</a>
+        <div className={styles.spacer1}></div>
+        <Image
+          src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot_light.png" 
+          width={1106}
+          height={696}
+        />
+        <div className={styles.spacer2}></div>
+        <h3>Dark mode included.</h3>
+        <div className={styles.spacer2}></div>
+        <Image
+          src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot_dark.png" 
+          width={1106}
+          height={696}
+        />
       </main>
-
       <footer className={styles.footer}>
       </footer>
     </div>
