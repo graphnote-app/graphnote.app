@@ -27,17 +27,9 @@ const Home: NextPage = () => {
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app">Coming Soon</a>
         <div className={styles.spacer1}></div>
         <Image
-          src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot_light.png" 
-          width={1106}
-          height={696}
-        />
-        <div className={styles.spacer2}></div>
-        <h3>Dark mode included.</h3>
-        <div className={styles.spacer2}></div>
-        <Image
-          src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot_dark.png" 
-          width={1106}
-          height={696}
+          src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_mockup.png" 
+          width={1322}
+          height={934}
         />
       </main>
       <footer className={styles.footer}>
