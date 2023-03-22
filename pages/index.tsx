@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           />
         </a>
         <h1>Graphnote</h1>
-        <p style={{maxWidth: 900}}>Center your note taking world around relationships. It&lsquo;s a flat file structure with relationships (Label & Links) to group together Pages.</p>
+        <p style={{maxWidth: 900}}>Center your world around relationships. Use a flat file structure with relationships (Labels & Links) to group together Documents.</p>
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Coming Soon</a>
         <div className={styles.spacer1}></div>
         <Image
