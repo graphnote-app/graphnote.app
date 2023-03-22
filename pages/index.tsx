@@ -24,12 +24,12 @@ const Home: NextPage = () => {
         </a>
         <h1>Graphnote</h1>
         <p style={{maxWidth: 900}}>Center your note taking world around relationships. It&lsquo;s a flat file structure with relationships (Label & Links) to group together Pages.</p>
-        <a className={styles.comingSoonLink} href="https://github.com/graphnote-app">Coming Soon</a>
+        <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Coming Soon</a>
         <div className={styles.spacer1}></div>
         <Image
           src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot.png" 
-          width={1351}
-          height={914}
+          width={1145}
+          height={739}
         />
       </main>
       <footer className={styles.footer}>
