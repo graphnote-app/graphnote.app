@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/Email.module.css'
 
-export const Email: React.Component = () => {
+export const Email = () => {
   const [enabled, setEnabled] = React.useState(false)
 
   const onEmailChange = e => {
