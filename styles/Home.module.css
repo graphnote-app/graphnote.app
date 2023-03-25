@@ -24,7 +24,8 @@
 
 .comingSoonLink {
   text-decoration: underline;
-  color: orange;
+  color: #FF9881;
+  font-weight: bold;
 }
 
 .spacer1 {
