@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           height={739}
         />
         <div className={styles.spacer2}></div>
-        <h2 className={styles.slogan}>"Augment your memory"</h2>
+        <h2 className={styles.slogan}>&quot;Augment your memory&quot;</h2>
         <div className={styles.spacer1}></div>
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Open Source</a>
         <div className={styles.spacer2}></div>
