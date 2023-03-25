@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import {Email} from '../components/Email'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -24,13 +25,18 @@ const Home: NextPage = () => {
         </a>
         <h1>Graphnote</h1>
         <p style={{maxWidth: 900}}>Center your world around relationships. Use a flat file structure with relationships (Labels & Links) to group together Documents.</p>
-        <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Coming Soon</a>
+        
         <div className={styles.spacer1}></div>
         <Image
           src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot.png" 
           width={1145}
           height={739}
         />
+        <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Open Source</a>
+        <div className={styles.spacer1}></div>
+        {/*<h3 className={styles.emailHeader}>Email Sign Up</h3>
+        <Email />
+        <div className={styles.spacer1}></div>*/}
       </main>
       <footer className={styles.footer}>
       </footer>
