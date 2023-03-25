@@ -14,7 +14,10 @@ export const Email = () => {
       <form name="sign-up-list" method="post" data-netlify="true">
         <p>
           <label>
+            <span>
             Your email: 
+            </span>
+            <br />
             <input 
               className={styles.emailText} 
               type="email" 
