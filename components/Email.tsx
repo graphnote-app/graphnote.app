@@ -11,7 +11,8 @@ export const Email = () => {
 
   return (
     <div className={styles.container}>
-      <form name="sign-up-list" method="post" data-netlify="true">
+      <form name="sign-up-list" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="sign-up-list" />
         <p>
           <label>
             <span>
