@@ -24,7 +24,7 @@ export const Email = () => {
           className={styles.formSubmit}
           type="submit"
           disabled={!enabled}
-        >  
+        >
         </input>
       </form>
     </div>
