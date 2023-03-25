@@ -12,21 +12,28 @@ export const Email = () => {
   return (
     <div className={styles.container}>
       <form name="sign-up-list" method="post" data-netlify="true">
-        <input 
-          className={styles.emailText} 
-          type="email" 
-          placeholder="graphnote.io@gmail.com"
-          name="email"
-          onChange={onEmailChange}
-        >
-        </input>
-        <button
-          className={styles.formSubmit}
-          type="submit"
-          disabled={!enabled}
-        >
-          Submit!
-        </button>
+        <p>
+          <label>
+            Your email: 
+            <input 
+              className={styles.emailText} 
+              type="email" 
+              placeholder="graphnote.io@gmail.com"
+              name="email"
+              onChange={onEmailChange}
+            >
+            </input>
+          </label>
+        </p>
+        <p>
+          <button
+            className={styles.formSubmit}
+            type="submit"
+            disabled={!enabled}
+          >
+            Submit!
+          </button>
+        </p>
       </form>
     </div>
   )
