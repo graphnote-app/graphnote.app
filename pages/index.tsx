@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           />
         </a>
         <h1>Graphnote</h1>
-        <p style={{maxWidth: 900}}>Center your world around relationships. A flat graph file structure with relationships (<span style={{color: "#FFC962", fontWeight: "bold"}}>labels</span> & <span style={{color: "#5E81FF", fontWeight: "bold"}}>links</span>), to group together <span style={{color: "#E173E2", fontWeight: "bold"}}>documents</span></p>
+        <p style={{maxWidth: 800, lineHeight: "2em"}}>Center your world around relationships. A flat graph file structure with relationships (<span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#FFC962", fontWeight: "bold"}}>labels</span> & <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#5E81FF", fontWeight: "bold"}}>links</span>), to group together <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#E173E2", fontWeight: "bold"}}>documents</span></p>
         
         <div className={styles.spacer1}></div>
         <Image
