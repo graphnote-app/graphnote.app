@@ -4,7 +4,7 @@ import styles from '../styles/Email.module.css'
 export const Email = () => {
   const [enabled, setEnabled] = React.useState(false)
 
-  const onEmailChange = (e: React.FormEvent<HTMLInputElement>) => {
+  const onEmailChange = (e: any) => {
     const empty = (e.target.value == "")
     setEnabled(!empty)
   }
