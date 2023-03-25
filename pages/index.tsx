@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           />
         </a>
         <div className={styles.spacer1}></div>
-        <p style={{fontSize: "1.25em", maxWidth: 800, lineHeight: "2em"}}>Center your world around relationships. A graph style file structure with relationships (<span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#FFC962", fontWeight: "bold"}}>labels</span> & <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#5E81FF", fontWeight: "bold"}}>links</span>), to group together <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#E173E2", fontWeight: "bold"}}>documents</span></p>
+        <p style={{fontSize: "1.25em", maxWidth: 800, lineHeight: "2em"}}>Center your world around relationships. A graph style file structure with relationships, <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#FFC962", fontWeight: "bold"}}>labels</span> & <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#5E81FF", fontWeight: "bold"}}>links</span>, to group together <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#E173E2", fontWeight: "bold"}}>documents</span>.</p>
         <div className={styles.spacer1}></div>
         <Image
           src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot.png" 
