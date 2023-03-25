@@ -11,7 +11,7 @@ export const Email = () => {
 
   return (
     <div className={styles.container}>
-      <form action="http://localhost:3000" method="post">
+      <form name="sign-up-list" method="post" data-netlify="true">
         <input 
           className={styles.emailText} 
           type="email" 
