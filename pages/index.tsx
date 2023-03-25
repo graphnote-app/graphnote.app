@@ -34,9 +34,9 @@ const Home: NextPage = () => {
         />
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Open Source</a>
         <div className={styles.spacer1}></div>
-        {/*<h3 className={styles.emailHeader}>Email Sign Up</h3>
+        <h3 className={styles.emailHeader}>Email Sign Up</h3>
         <Email />
-        <div className={styles.spacer1}></div>*/}
+        <div className={styles.spacer1}></div>
       </main>
       <footer className={styles.footer}>
       </footer>
