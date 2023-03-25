@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <div className={styles.spacer2}></div>
         
         <h1 style={{fontSize: "2.5em"}}>Graphnote</h1>
-        <a className={styles.logo} href="https://github.com/graphnote-app">
+        <a className={styles.logo} href="https://github.com/graphnote-app/graphnote">
           <Image
             src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_icon.png"
             width={128}
