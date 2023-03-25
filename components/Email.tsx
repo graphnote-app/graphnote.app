@@ -20,12 +20,13 @@ export const Email = () => {
           onChange={onEmailChange}
         >
         </input>
-        <input
+        <button
           className={styles.formSubmit}
           type="submit"
           disabled={!enabled}
         >
-        </input>
+          Submit!
+        </button>
       </form>
     </div>
   )
