@@ -29,12 +29,23 @@ const Home: NextPage = () => {
         <div className={styles.spacer1}></div>
         <Image
           src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot.png" 
-          width={1145}
-          height={739}
+          width={1150}
+          height={712}
         />
         <div className={styles.spacer1}></div>
         <h2 className={styles.slogan}>&quot;Augment your memory&quot;</h2>
         <p style={{fontSize: "1.25em", maxWidth: 800, lineHeight: "2em"}}>A delightful app for note taking and organization with a dynamic, <span style={{borderRadius: "4px", padding: "4px", backgroundColor: "rgba(128, 128, 128, 0.25)", color: "#E173E2", fontWeight: "bold"}}>label</span> driven, navigation tree.</p>
+        <div style={{display: "flex", margin: "40px", alignItems: "center"}}>
+        <div style={{width: "60px"}}></div>
+        <div style={{borderRadius: '8px', overflow: 'hidden'}}>
+          <Image
+            src="https://raw.githubusercontent.com/graphnote-io/graphnote/master/Resources/graphnote_screenshot_link_content_preview_light.png" 
+            width={962}
+            height={690}
+          />
+        </div>
+        
+        </div>
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Open Source</a>
         <div className={styles.spacer1}></div>
         <div className={styles.spacer2}></div>
