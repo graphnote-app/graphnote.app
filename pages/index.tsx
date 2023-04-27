@@ -49,6 +49,7 @@ const Home: NextPage = () => {
         <a className={styles.comingSoonLink} href="https://github.com/graphnote-app/graphnote">Open Source</a>
         <div className={styles.spacer1}></div>
         <div className={styles.spacer2}></div>
+        <h3 className={styles.emailHeader}>Coming to iOS and macOS</h3>
         <h3 className={styles.emailHeader}>Be notified by email when the beta is launched</h3>
         <Email />
         <div className={styles.spacer1}></div>
